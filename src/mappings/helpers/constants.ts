@@ -37,6 +37,7 @@ class AddressByNetwork {
   public custom: string;
   public fantom: string;
   public celo: string;
+  public celoAlfajores: string;
 }
 
 let network: string = dataSource.network();
@@ -50,6 +51,7 @@ let vaultAddressByNetwork: AddressByNetwork = {
   custom: '0x0000000000000000000000000000000000000000',
   fantom: '0x20dd72Ed959b6147912C2e529F0a0C651c33c9ce',
   celo: '0xeA280B39437a64473a0C77949759E6629eD1Dc73',
+  celoAlfajores: '0xeA280B39437a64473a0C77949759E6629eD1Dc73',
 };
 
 function forNetwork(addressByNetwork: AddressByNetwork, network: string): Address {
@@ -59,6 +61,8 @@ function forNetwork(addressByNetwork: AddressByNetwork, network: string): Addres
     return Address.fromString(addressByNetwork.fantom);
   } else if (network == 'celo') {
     return Address.fromString(addressByNetwork.celo);
+  } else if (network == 'celo-alfajores') {
+    return Address.fromString(addressByNetwork.celoAlfajores);
   } else {
     return Address.fromString(addressByNetwork.canonical);
   }

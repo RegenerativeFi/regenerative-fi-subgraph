@@ -1,0 +1,22 @@
+{
+  "stableAssets": [
+    {
+      "address": "0x51f29e07c7cf53D2603e1A224E27b1c74E181a17",
+      "symbol": "tcUSD"
+    },
+    {
+      "address": "0x9A3a52f4462585c31025e2242C9b4074a9FB4a1f",
+      "symbol": "tUSDC"
+    }
+  ],
+  "pricingAssets": [
+    {
+      "address": "0xE036290F41c367AeC59aec5B69C2B72068C441f6",
+      "symbol": "tCELO"
+    },
+    {
+      "address": "0x68DF333c5F5835A186AA8bCe4a704432006fDF49",
+      "symbol": "tREGEN"
+    }
+  ]
+}

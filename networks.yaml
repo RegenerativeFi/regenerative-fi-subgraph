@@ -941,3 +941,17 @@ celo:
   ComposableStablePoolV6Factory:
     address: "0x1051Ec689f101D36271325347c21614eDF03e102"
     startBlock: 28404902
+celo-alfajores:
+  network: celo-alfajores
+  EventEmitter:
+    address: "0x8747CbeEF3Eb05D117a79011003eAdD8e3AAE953"
+    startBlock: 32872189
+  Vault:
+    address: "0xeA280B39437a64473a0C77949759E6629eD1Dc73"
+    startBlock: 31585947
+  WeightedPoolV4Factory:
+    address: "0x1051Ec689f101D36271325347c21614eDF03e102"
+    startBlock: 31586015
+  ComposableStablePoolV6Factory:
+    address: "0xBFb9F49E468eB87F2FE22F8062C57E34c57A278C"
+    startBlock: 31586042
